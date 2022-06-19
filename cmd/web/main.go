@@ -25,6 +25,7 @@ func main() {
 	
 
 	app.InProduction = false
+	app.StaticDir = "./static"
 
 	session = scs.New()
 	session.Lifetime = 24 * time.Hour
